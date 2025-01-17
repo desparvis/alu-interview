@@ -5,7 +5,6 @@ first documentation
 minimum operations to reach character n
 """
 
-
 def minOperations(n):
     if n <= 1:
         return 0
@@ -18,6 +17,5 @@ def minOperations(n):
             operations += i
             n /= i
         i += 1
-
 
     return operations
