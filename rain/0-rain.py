@@ -7,7 +7,6 @@ Function that calculates how much water will be retained after it rains
 def rain(walls):
     if not walls:
         return 0
-    
     n = len(walls)
     left_max = [0] * n
     right_max = [0] * n
