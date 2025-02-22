@@ -2,6 +2,8 @@
 """
 pascal's triangle function
 """
+
+
 def pascal_triangle(n):
     """
     generating a triangle up the nth row
