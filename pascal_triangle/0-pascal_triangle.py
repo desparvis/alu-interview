@@ -1,12 +1,12 @@
+#!/usr/bin/python3
 """
 pascal's triangle function
 """
-#!/usr/bin/python3
 def pascal_triangle(n):
     """
     generating a triangle up the nth row
     """
-    if n <=0:
+    if n <= 0:
         return []
     pascal_triangle = [[1]]
 
